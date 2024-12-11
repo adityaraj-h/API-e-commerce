@@ -10,7 +10,7 @@ app.listen(PORT, () => {
 
 app.get("/status", (_, response) => {
   const status = {
-    Status: "Running",
+    Status: "Running right now",
   };
 
   response.send(status);
