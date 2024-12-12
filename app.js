@@ -15,3 +15,7 @@ app.get("/status", (_, response) => {
 
   response.send(status);
 });
+
+app.post("/login",(request,response)=>{
+  
+})
