@@ -12,3 +12,13 @@ const UserModel = {
     unique: true,
   },
 };
+
+module.exports = {
+  initialize: (sequelize) => {
+    this.model = sequelize.define("user", UserModel);
+  },
+
+  createUser: (user) => {
+    return this.model.create(user);
+  },
+};
