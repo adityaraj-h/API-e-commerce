@@ -2,6 +2,7 @@
 This repository will entail of Javascript and express heavily. Watch me master APIs here
 
 Documentation for the User auth and rest of the system
+
 Defining the user module
 In real-world apps, we use databases to store data more efficiently. Since this is only a simple project, we wanted to keep things easy. So, we will build the API with SQLite, define the structure of the data in common/models/User.js, and store data in storage/data.db.
 
