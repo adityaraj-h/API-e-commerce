@@ -84,6 +84,16 @@ app.get(“/status”, (request, response) => {
    response.send(status);
 });
 
+Now, we’ll create the following API endpoints for user management:
+
+POST /signup: Registering a new user
+POST /login: Logging in
+GET /user: Retrieving a user’s profile (restricted to the user themselves)
+PATCH /user/:userId: Updating a user’s profile (restricted to the user themselves)
+GET /user/all: Retrieving all users (available to all users)
+PATCH /user/change-role/:userId: Updating a user’s role (restricted to admins)
+DELETE /user/:userId: Deleting a user (restricted to admins)
+
 Documentation for the User auth and rest of the system
 
 Defining the user module
