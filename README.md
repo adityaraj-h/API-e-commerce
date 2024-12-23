@@ -11,6 +11,7 @@ npm -v
 
 If you see the versions of Node.js and NPM show up, your installation was successful.
 
+
 Step 2: Create a new project folder
 Next, we’ll create a new folder for the project by running the following command in your terminal (note that entering this command as-is will name your project “node rest api,” but you can change the name, if you’d like):
 
