@@ -46,6 +46,7 @@ Now, let’s set up Express to create an app and configure it to parse requests 
 const app = express ();
 app.use(express.json());
 
+
 Step 6: Define a route that listens to requests
 Now we need to make this application a server by getting it to listen for connections. To do this, we’ll connect to a port to listen for incoming requests.
 
